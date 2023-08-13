@@ -33,7 +33,8 @@
     - [Servicios de almacenamiento de AWS](#servicios-de-almacenamiento-de-aws)
         - [Almacenamiento de objetos](#almacenamiento-de-objetos)
         - [Amazon S3](#amazon-s3)
-        - Amazon Elastic Block Store (Amazon EBS)
+        - [Almacenes de instancias](#almacenes-de-instancias)
+        - [Amazon Elastic Block Store (Amazon EBS)](#amazon-elastic-block-store-amazon-ebs)
         - Amazon S3 Glacier
         - AWS Snowball
         - Amazon Elastic File System (Amazon EFS)
@@ -134,8 +135,46 @@ S3 Glacier es una clase de almacenamiento de bajo costo ideal para archivar dato
 
 Al decidir entre Amazon S3 Glacier y Amazon S3 Glacier Deep Archive, tenga en cuenta la rapidez con la que necesita obtener los objetos archivados. Puede obtener objetos almacenados en la clase de almacenamiento de S3 Glacier desde en unos minutos hasta en unas horas. En comparación, puede obtener objetos almacenados en la clase de almacenamiento de S3 Glacier Deep Archive en un plazo de 12 horas.
 
+### Almacenes de instancias
+
+Los volúmenes de almacenamiento a nivel de bloque se comportan como discos duros físicos.
+
+Un **almacén de instancias** proporciona almacenamiento temporal a nivel de bloques para una instancia de Amazon EC2. Un almacén de instancias es un almacenamiento en disco que está conectado físicamente a la computadora host para una instancia de EC2 y, por lo tanto, tiene la misma vida útil que la instancia. Cuando se termina la instancia, se pierden los datos del almacén de instancias.
+
+#### Ejemplos
+
+Se está ejecutando una instancia de Amazon EC2 con un almacén de instancias adjunto.
+
+![Ejemplo almacen de instancias 1](/contenido/Dominio-3/ejemplo-almacen-instancias-1.png "Ejemplo almacen de instancias 1")
+
+La instancia se detiene o termina.
+
+![Ejemplo almacen de instancias 2](/contenido/Dominio-3/ejemplo-almacen-instancias-2.png "Ejemplo almacen de instancias 2")
+
+Se eliminan todos los datos del almacén de instancias adjunto.
+
+![Ejemplo almacen de instancias 3](/contenido/Dominio-3/ejemplo-almacen-instancias-3.png "Ejemplo almacen de instancias 3")
+
+Las instancias de Amazon EC2 son servidores virtuales. Si inicia una instancia desde un estado detenido, la instancia podría iniciarse en otro host, donde el volumen del almacén de instancias usado anteriormente no existe. Por lo tanto, AWS recomienda los almacenes de instancias para casos de uso que implican datos temporales que no necesita a largo plazo.
+
+![Ejemplo almacen de instancias 4](/contenido/Dominio-3/ejemplo-almacen-instancias-4.png "Ejemplo almacen de instancias 4")
 
 ### Amazon Elastic Block Store (Amazon EBS)
+
+[Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/ebs) es un servicio que proporciona volúmenes de almacenamiento a nivel de bloque que puede utilizar con instancias de Amazon EC2. Si detiene o termina una instancia de Amazon EC2, todos los datos del volumen de EBS adjunto siguen estando disponibles.
+
+Para crear un volumen de EBS, debe definir la configuración (como el tamaño y el tipo de volumen) y aprovisionarlo. Después de crear un volumen de EBS, se puede adjuntar a una instancia de Amazon EC2.
+
+Dado que los volúmenes de EBS son para datos que deben persistir, es importante hacer una copia de seguridad de los datos. Puede realizar copias de seguridad progresivas de volúmenes de EBS mediante la creación de instantáneas de Amazon EBS.
+
+#### Instantáneas de Amazon EBS
+
+![Instantáneas de Amazon EBS](/contenido/Dominio-3/instantaneas-de-ebs.png "Instantáneas de Amazon EBS")
+
+Una instantánea de EBS es una copia de seguridad progresiva. Esto significa que la primera copia de seguridad realizada de un volumen copia todos los datos. Para las copias de seguridad posteriores, solo se guardan los bloques de datos que han cambiado desde la última instantánea. 
+
+Las copias de seguridad progresivas son diferentes de las copias de seguridad completas, en las que todos los datos de un volumen de almacenamiento se copian cada vez que se realiza una copia de seguridad. La copia de seguridad completa incluye datos que no han cambiado desde la copia de seguridad más reciente.
+
 ### Amazon S3 Glacier
 ### AWS Snowball
 ### Amazon Elastic File System (Amazon EFS)
