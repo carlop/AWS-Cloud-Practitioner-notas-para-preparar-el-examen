@@ -1,5 +1,5 @@
 
-# AWS Cloud Practitioner notas para preparar el examen
+# AWS Cloud Practitioner - Notas para preparar el examen
 
 ![AWS Certified Cloud Practitioner badge](AWS-Certified-Cloud-Practitioner_badge.png "AWS Certified Cloud Practitioner badge")
 
