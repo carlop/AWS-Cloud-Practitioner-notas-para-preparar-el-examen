@@ -109,8 +109,9 @@ El propósito de este repositorio es contener toda la información necesaria par
             - Reconocer los diferentes servicios que proporcionan informática (por ejemplo, AWS Lambda en comparación con Amazon Elastic Container Service [Amazon ECS] o Amazon EC2, etcétera)
             - Reconocer que la elasticidad se logra a través de Auto Scaling
             - Identificar el fin de los balanceadores de carga
-        - Identificar diferentes servicios de almacenamiento de AWS
-            - Describir Amazon S3
+        - [Servicios de almacenamiento de AWS](/contenido/Dominio-3/Dominio3-Tecnología.md#servicios-de-almacenamiento-de-aws)
+            - [Almacenamiento de objetos](/contenido/Dominio-3/Dominio3-Tecnología.md#almacenamiento-de-objetos)
+            - [Amazon S3](/contenido/Dominio-3/Dominio3-Tecnología.md#amazon-s3)
             - Describir Amazon Elastic Block Store (Amazon EBS)
             - Describir Amazon S3 Glacier
             - Describir AWS Snowball
