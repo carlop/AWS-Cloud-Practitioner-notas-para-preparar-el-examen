@@ -1,0 +1,22 @@
+# Dominio 4: Facturación y precios
+
+- Comparar y contrastar los distintos modelos de precios de AWS (por ejemplo, precios de instancias bajo demanda, instancias reservadas e instancias de spot)
+    - Identificar situaciones o la mejor opción para precios de instancias bajo demanda
+    - Identificar situaciones o la mejor opción para precios de instancias reservadas
+        - Describir la flexibilidad de las instancias reservadas
+        - Describir el comportamiento de las instancias reservadas en AWS Organizations
+    - Identificar situaciones o la mejor opción para precios de instancias de spot
+- Reconocer las distintas estructuras de cuentas en relación con la facturación y los precios de AWS
+    - Reconocer que la facturación unificada es una característica de AWS Organizations
+    - Identificar la forma en que varias cuentas ayudan a asignar costos entre departamentos
+- Identificar los recursos de soporte de facturación disponibles
+    - Identificar formas de obtener soporte e información sobre la facturación
+        - Cost Explorer, Informe de uso y costo de AWS, Amazon QuickSight, socios externos y herramientas de AWS Marketplace
+        - Abrir un caso de soporte de facturación
+        - El rol del Concierge para clientes del plan de soporte de AWS Enterprise
+    - Identificar dónde encontrar información sobre precios en los servicios de AWS
+        - Calculadora de costo mensual de AWS
+        - Páginas de productos de servicios de AWS
+        - API de precios de AWS
+    - Reconocer que existen alarmas y alertas
+    - Identificar cómo se usan las etiquetas en la asignación de costos

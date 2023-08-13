@@ -1,0 +1,32 @@
+# Dominio 1: Conceptos de la nube
+
+- Definir la nube de AWS y su propuesta de valor
+    - Definir los beneficios de la nube de AWS, incluidos los siguientes:
+        - Seguridad
+        - Fiabilidad
+        - Alta disponibilidad
+        - Elasticidad
+        - Agilidad
+        - Precios de pago por uso
+        - Escalabilidad
+        - Alcance global
+        - Economía de escala
+    - Explicar cómo la nube de AWS permite que los usuarios se enfoquen en el valor de negocio
+        - Transición de recursos técnicos a actividades que generan ingresos en lugar de administrar la infraestructura
+- Identificar aspectos de la economía de la nube de AWS
+    - Definir elementos que formarían parte de una propuesta de Costo total de propiedad
+        - Comprender el rol de los gastos operativos (OpEx)
+        - Comprender el rol de la inversión de capital (CapEx)
+        - Comprender el costo de mano de obra asociado a las operaciones en las instalaciones
+        - Comprender el impacto del costo de las licencias de software cuando se migra a la nube
+    - Identificar qué operaciones reducirán los costos cuando se migra a la nube
+        - Infraestructura del tamaño indicado
+        - Beneficios de la automatización
+        - Reducción del alcance de la conformidad (por ejemplo, informes)
+        - Servicios administrados (por ejemplo, RDS, ECS, EKS, DynamoDB)
+- Explicar los diferentes principios de diseño de la arquitectura de nube
+    - Explicar los principios de diseño
+        - Crear un diseño preparado para los errores
+        - Desacoplar componentes en comparación con la arquitectura monolítica
+        - Implementar elasticidad en la nube o en las instalaciones
+        - Pensar en paralelo

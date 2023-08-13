@@ -1,0 +1,59 @@
+# Dominio 3: Tecnología
+
+- Definir métodos de implementación y funcionamiento en la nube de AWS
+    - Identificar formas diferentes de aprovisionamiento y funcionamiento en la nube de AWS a un alto nivel
+        - Acceso mediante programación, API, SDK, consola de administración de AWS, CLI, Infrastructure as Code
+    - Identificar diferentes tipos de modelos de implementación en la nube
+        - Todo en la nube o nativo en la nube
+        - Híbrido
+        - En las instalaciones
+    - Identificar opciones de conectividad
+        - VPN
+        - AWS Direct Connect
+        - Internet pública
+- Definir la infraestructura global de AWS
+    - Describir las relaciones entre las regiones, las zonas de disponibilidad y las ubicaciones de borde
+    - Describir cómo lograr alta disponibilidad mediante el uso de varias zonas de disponibilidad
+        - Recordar que la alta disponibilidad se logra mediante el uso de varias zonas de disponibilidad
+        - Reconocer que las zonas de disponibilidad no comparten puntos únicos de error
+    - Describir cuándo se debe considerar el uso de varias regiones de AWS
+        - Recuperación ante desastres y continuidad del negocio
+        - Latencia baja para usuarios finales
+        - Soberanía de los datos
+    - Describir los beneficios de las ubicaciones de borde a un alto nivel
+        - Amazon CloudFront
+        - AWS Global Accelerator
+- Identificar los servicios principales de AWS
+    - Describir las categorías de servicios en AWS (informática, almacenamiento, red, base de datos)
+    - Identificar los servicios informáticos de AWS
+        - Reconocer que existen diferentes familias de informática
+        - Reconocer los diferentes servicios que proporcionan informática (por ejemplo, AWS Lambda en comparación con Amazon Elastic Container Service [Amazon ECS] o Amazon EC2, etcétera)
+        - Reconocer que la elasticidad se logra a través de Auto Scaling
+        - Identificar el fin de los balanceadores de carga
+    - Identificar diferentes servicios de almacenamiento de AWS
+        - Describir Amazon S3
+        - Describir Amazon Elastic Block Store (Amazon EBS)
+        - Describir Amazon S3 Glacier
+        - Describir AWS Snowball
+        - Describir Amazon Elastic File System (Amazon EFS)
+        - Describir AWS Storage Gateway
+    - Identificar los servicios de redes de AWS
+        - Identificar VPC
+        - Identificar grupos de seguridad
+        - Identificar el fin de Amazon Route 53
+        - Identificar VPN, AWS Direct Connect
+    - Identificar diferentes servicios de bases de datos de AWS
+        - Instalar bases de datos en Amazon EC2 en comparación con las bases de datos que administra AWS
+        - Identificar Amazon RDS
+        - Identificar Amazon DynamoDB
+        - Identificar Amazon Redshift
+- Identificar recursos para respaldar la tecnología
+    - Reconocer que hay documentación (prácticas recomendadas, documentos técnicos, Centro de conocimientos de AWS, foros, blogs)
+    - Identificar los distintos niveles y el alcance de AWS Support
+        - AWS Abuse
+        - Casos de AWS Support
+        - Premium Support
+        - Directores técnicos de cuentas
+    - Reconocer que existe una red de socios (Marketplace, terceros) que incluye proveedores de software independientes e integradores de sistemas
+    - Identificar fuentes de asistencia técnica y conocimientos de AWS, incluidos servicios profesionales, arquitectos de soluciones, capacitación y certificación, y la red de socios de Amazon
+    - Identificar los beneficios de usar AWS Trusted Advisor

@@ -1,0 +1,35 @@
+# Dominio 2: Seguridad y conformidad
+
+- Describir el modelo de responsabilidad compartida de AWS
+    - Reconocer los elementos del modelo de responsabilidad compartida
+    - Describir la responsabilidad del cliente en AWS
+        - Describir cómo las responsabilidades del cliente pueden cambiar en función del servicio que se usa (por ejemplo, con RDS, Lambda o EC2)
+    - Describir las responsabilidades de AWS
+- Definir los conceptos de seguridad y conformidad de la nube de AWS
+    - Identificar dónde encontrar información sobre la conformidad de AWS
+        - Ubicar las listas de controles de conformidad reconocidos disponibles (por ejemplo, HIPPA, SOC)
+        - Reconocer que los requisitos de conformidad varían entre los servicios de AWS
+    - Describir cómo los clientes logran la conformidad en AWS en un nivel alto
+        - Identificar las diferentes opciones de cifrado en AWS (por ejemplo, en tránsito, en reposo)
+    - Describir quién habilita el cifrado de un servicio determinado en AWS
+    - Reconocer que existen servicios que ayudan a auditar e informar
+        - Reconocer que existen registros para auditar y monitorear (no es necesario comprender los registros)
+        - Definir Amazon CloudWatch, AWS Config y AWS CloudTrail
+    - Explicar el concepto de acceso con privilegios mínimos
+- Identificar las capacidades de administración de acceso a AWS
+    - Comprensión del propósito de la administración de usuarios e identidades
+        - Políticas de claves de acceso y contraseñas (rotación, complejidad)
+        - Multi-Factor Authentication (MFA)
+        - AWS Identity and Access Management (IAM)
+            - Grupos y usuarios
+            - Roles
+            - Políticas, políticas administradas en comparación con políticas personalizadas
+        - Tareas que requieren el uso de cuentas raíz. Protección de cuentas raíz
+- Identificar recursos para respaldar la seguridad
+    -  Reconocer que existen diferentes capacidades de seguridad de red
+        - Servicios nativos de AWS (por ejemplo, grupos de seguridad, ACL de red, AWS WAF)
+        - Productos de seguridad de terceros en AWS Marketplace
+    - Reconocer que hay documentación y dónde encontrarla (por ejemplo, prácticas recomendadas, documentos técnicos, documentos oficiales)
+        - Centro de conocimientos de AWS, centro de seguridad, foro de seguridad y blogs de seguridad
+        - Integradores de sistemas de socios
+    - Saber que las verificaciones de seguridad son un componente de AWS Trusted Advisor

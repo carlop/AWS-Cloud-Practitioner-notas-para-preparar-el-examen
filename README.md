@@ -9,7 +9,7 @@ El propósito de este repositorio es contener toda la información necesaria par
 
 - [Contenido del examen](/contenido/Contenido-del-examen.md)
 
-- Dominio 1: Conceptos de la nube
+- [Dominio 1: Conceptos de la nube](/contenido/Dominio-1/Dominio1-Conceptos-de-la-nube.md)
     - Definir la nube de AWS y su propuesta de valor
         - Definir los beneficios de la nube de AWS, incluidos los siguientes:
             - Seguridad
@@ -42,7 +42,7 @@ El propósito de este repositorio es contener toda la información necesaria par
             - Pensar en paralelo
 
 
-- Dominio 2: Seguridad y conformidad
+- [Dominio 2: Seguridad y conformidad](/contenido/Dominio-2/Dominio2-Seguridad-y-Conformidad.md)
     - Describir el modelo de responsabilidad compartida de AWS
         - Reconocer los elementos del modelo de responsabilidad compartida
         - Describir la responsabilidad del cliente en AWS
@@ -78,7 +78,7 @@ El propósito de este repositorio es contener toda la información necesaria par
         - Saber que las verificaciones de seguridad son un componente de AWS Trusted Advisor
 
 
-- Dominio 3: Tecnología
+- [Dominio 3: Tecnología](/contenido/Dominio-3/Dominio3-Tecnología.md)
     - Definir métodos de implementación y funcionamiento en la nube de AWS
         - Identificar formas diferentes de aprovisionamiento y funcionamiento en la nube de AWS a un alto nivel
             - Acceso mediante programación, API, SDK, consola de administración de AWS, CLI, Infrastructure as Code
@@ -138,7 +138,7 @@ El propósito de este repositorio es contener toda la información necesaria par
         - Identificar los beneficios de usar AWS Trusted Advisor
 
 
-- Dominio 4: Facturación y precios
+- [Dominio 4: Facturación y precios](/contenido/Dominio-4/Dominio4-Facturación-y-precios.md)
     - Comparar y contrastar los distintos modelos de precios de AWS (por ejemplo, precios de instancias bajo demanda, instancias reservadas e instancias de spot)
         - Identificar situaciones o la mejor opción para precios de instancias bajo demanda
         - Identificar situaciones o la mejor opción para precios de instancias reservadas
