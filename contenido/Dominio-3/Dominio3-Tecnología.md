@@ -37,7 +37,7 @@
         - [Amazon Elastic Block Store (Amazon EBS)](#amazon-elastic-block-store-amazon-ebs)
         - Amazon S3 Glacier
         - AWS Snowball
-        - Amazon Elastic File System (Amazon EFS)
+        - [Amazon Elastic File System (Amazon EFS)](#amazon-elastic-file-system-amazon-efs)
         - AWS Storage Gateway
     - Identificar los servicios de redes de AWS
         - Identificar VPC
@@ -177,5 +177,24 @@ Las copias de seguridad progresivas son diferentes de las copias de seguridad co
 
 ### Amazon S3 Glacier
 ### AWS Snowball
+
 ### Amazon Elastic File System (Amazon EFS)
+
+En el almacenamiento de archivos, varios clientes (como usuarios, aplicaciones, servidores, etc.) pueden acceder a los datos almacenados en carpetas de archivos compartidas. En este enfoque, un servidor de almacenamiento utiliza el almacenamiento de bloques con un sistema de archivos local para organizar los archivos. Los clientes acceden a los datos mediante rutas de archivos.
+
+En comparación con el almacenamiento de bloques y el almacenamiento de objetos, el almacenamiento de archivos es ideal para casos de uso en los que un gran número de servicios y recursos necesitan acceder a los mismos datos al mismo tiempo.
+
+[Amazon Elastic File System (Amazon EFS)](https://aws.amazon.com/efs/) es un sistema de archivos escalable que se utiliza con los servicios de AWS Cloud y los recursos en las instalaciones locales. A medida que agrega y elimina archivos, Amazon EFS crece y se reduce automáticamente. Puede escalar a petabytes según la demanda sin interrumpir las aplicaciones.
+
+#### Comparación de Amazon EBS y Amazon EFS
+
+Un volumen de Amazon EBS almacena los datos en una única zona de disponibilidad. 
+
+Para adjuntar una instancia de Amazon EC2 a un volumen de EBS, tanto la instancia de Amazon EC2 como el volumen de EBS deben residir en la misma zona de disponibilidad.
+
+Amazon EFS es un servicio regional. Almacena datos en varias zonas de disponibilidad y entre ellas. 
+
+El almacenamiento duplicado le permite acceder a los datos simultáneamente desde todas las zonas de disponibilidad de la región en la que se ubica un sistema de archivos. Además, los servidores en las instalaciones locales pueden acceder a Amazon EFS mediante AWS Direct Connect.
+
+
 ### AWS Storage Gateway
