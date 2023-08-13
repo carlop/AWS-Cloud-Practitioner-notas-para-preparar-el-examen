@@ -66,7 +66,7 @@
 
 ### Almacenamiento de objetos
 
-![Almacenamiento de objetos](/contenido/Dominio-1/almacenamiento-de-objetos.png "Almacenamiento de objetos")
+![Almacenamiento de objetos](/contenido/Dominio-3/almacenamiento-de-objetos.png "Almacenamiento de objetos")
 
 En el almacenamiento de objetos, cada objeto consta de datos, metadatos y una clave.
 
