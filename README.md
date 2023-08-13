@@ -7,7 +7,7 @@ El propósito de este repositorio es contener toda la información necesaria par
 
 ## Tabla de Contenido
 
-- Guía de examen
+- [Contenido del examen](/contenido/Contenido-del-examen.md)
 
 - Dominio 1: Conceptos de la nube
     - Definir la nube de AWS y su propuesta de valor
