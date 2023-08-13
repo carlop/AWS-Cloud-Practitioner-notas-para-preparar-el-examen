@@ -35,7 +35,7 @@
         - [Amazon S3](#amazon-s3)
         - [Almacenes de instancias](#almacenes-de-instancias)
         - [Amazon Elastic Block Store (Amazon EBS)](#amazon-elastic-block-store-amazon-ebs)
-        - Amazon S3 Glacier
+        - [Amazon S3 Glacier](#amazon-s3-glacier)
         - AWS Snowball
         - [Amazon Elastic File System (Amazon EFS)](#amazon-elastic-file-system-amazon-efs)
         - AWS Storage Gateway
@@ -176,6 +176,31 @@ Una instantánea de EBS es una copia de seguridad progresiva. Esto significa que
 Las copias de seguridad progresivas son diferentes de las copias de seguridad completas, en las que todos los datos de un volumen de almacenamiento se copian cada vez que se realiza una copia de seguridad. La copia de seguridad completa incluye datos que no han cambiado desde la copia de seguridad más reciente.
 
 ### Amazon S3 Glacier
+
+Las clases de almacenamiento de Amazon S3 Glacier se crearon específicamente para el archivado de datos y le ofrecen el mayor rendimiento, la mayor flexibilidad de recuperación y el menor costo de almacenamiento de archivos en la nube. Todas las clases de almacenamiento S3 Glacier ofrecen escalabilidad prácticamente ilimitada y están diseñadas para lograr un 99,999999999 % (11 nueves) de durabilidad de datos. Las clases de almacenamiento S3 Glacier ofrecen opciones para acceder más rápidamente a los datos de archivos y el menor costo en almacenamiento de archivos en la nube.
+
+![Amazon S3 Glacier](/contenido/Dominio-3/s3-glacier-1.png "Amazon S3 Glacier")
+
+Puede elegir entre tres clases de almacenamiento de archivos optimizadas para diferentes patrones de acceso y duraciones del almacenamiento.
+
+#### S3 Glacier Instant Retrieval
+
+S3 Glacier Instant Retrieval ofrece el almacenamiento de menor costo, hasta un 68 % menor (que S3 Standard-Infrequent Access), para datos de larga duración a los que se accede una vez por trimestre y que requieren una recuperación en milisegundos. Está diseñado para datos a los que rara vez se accede pero a los que se necesita acceso inmediato en casos de uso sensible al rendimiento como alojamiento de imágenes, aplicaciones que permiten compartir archivos en línea, imágenes médicas e historias clínicas, activos de los medios de comunicación e imágenes aéreas y satelitales. S3 Glacier Instant Retrieval ofrece alta durabilidad, alto rendimiento y baja latencia similares a los de S3 Standard-IA, con un precio menor por GB de almacenamiento y un precio ligeramente mayor por GB de recuperación. S3 Glacier Instant Retrieval está diseñado para brindar una durabilidad de los datos del 99,999999999 % (11 nueves) y una disponibilidad del 99,9 % mediante el almacenamiento redundante de los datos en varias zonas de disponibilidad de AWS separadas físicamente en un año determinado.
+
+![S3 Glacier Instant Retrieval](/contenido/Dominio-3/s3-glacier-2.png "S3 Glacier Instant Retrieval")
+
+#### S3 Glacier Flexible Retrieval
+
+S3 Glacier Flexible Retrieval ofrece almacenamiento de bajo costo, hasta un 10 % menor (que S3 Glacier Instant Retrieval), para los datos de archivo a los que se accede 1 o 2 veces al año y se recuperan de manera asíncrona. S3 Glacier Flexible Retrieval, es la clase de almacenamiento ideal para los datos de archivado que no requieren acceso inmediato, pero necesitan la flexibilidad de recuperar grandes conjuntos de datos sin costo alguno, como los casos de uso de copias de seguridad o recuperación de desastres. S3 Glacier Flexible Retrieval ofrece las opciones de recuperación más flexibles que equilibran el costo con tiempos de acceso que varían de minutos a horas y con recuperaciones masivas gratuitas. Esta es una solución ideal para las necesidades de copia de seguridad, recuperación de desastres, almacenamiento de datos fuera del sitio y para cuando algunos datos deben recuperarse ocasionalmente en minutos y no desea preocuparse por los costos. S3 Glacier Flexible Retrieval está diseñado para brindar una durabilidad de los datos del 99,999999999 % (11 nueves) y una disponibilidad del 99,99 % mediante el almacenamiento redundante de los datos en varias zonas de disponibilidad de AWS separadas físicamente en un año determinado.
+
+![S3 Glacier Flexible Retrieval](/contenido/Dominio-3/s3-glacier-3.png "S3 Glacier Flexible Retrieval")
+
+#### S3 Glacier Deep Archive
+
+S3 Glacier Deep Archive ofrece el almacenamiento de menor costo, hasta un 75 % menos (que S3 Glacier Flexible Retrieval), para datos de archivo de larga duración a los que se accede menos de una vez al año y que se recuperan de manera asincrónica. A tan solo 0,00099 USD por GB al mes (o 1 USD por TB al mes), S3 Glacier Deep Archive ofrece el almacenamiento en la nube de menor costo, a precios significativamente más bajos que el almacenamiento y el mantenimiento de datos en las instalaciones en cintas o el archivado de datos en ubicaciones remotas. S3 Glacier Deep Archive es una alternativa a las cintas rentable y fácil de administrar. Se diseñó para clientes, en concreto para aquellos que pertenecen a los servicios financieros, sanidad, medios y entretenimiento y sector público, que retienen los conjuntos de datos durante un periodo de 7 a 10 años o más a fin de cumplir con las necesidades de los clientes y con los requisitos de conformidad normativa. S3 Glacier Deep Archive está diseñado para brindar una durabilidad de los datos del 99,999999999 % (11 nueves) y una disponibilidad del 99,99 % mediante el almacenamiento redundante de los datos en varias zonas de disponibilidad de AWS separadas físicamente en un año determinado.
+
+![S3 Glacier Deep Archive](/contenido/Dominio-3/s3-glacier-4.png "S3 Glacier Deep Archive")
+
 ### AWS Snowball
 
 ### Amazon Elastic File System (Amazon EFS)
