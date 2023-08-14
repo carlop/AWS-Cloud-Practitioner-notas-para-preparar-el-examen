@@ -36,7 +36,7 @@
         - [Almacenes de instancias](#almacenes-de-instancias)
         - [Amazon Elastic Block Store (Amazon EBS)](#amazon-elastic-block-store-amazon-ebs)
         - [Amazon S3 Glacier](#amazon-s3-glacier)
-        - AWS Snowball
+        - [AWS Snowball](#aws-snowball)
         - [Amazon Elastic File System (Amazon EFS)](#amazon-elastic-file-system-amazon-efs)
         - AWS Storage Gateway
     - Identificar los servicios de redes de AWS
@@ -202,6 +202,84 @@ S3 Glacier Deep Archive ofrece el almacenamiento de menor costo, hasta un 75 % m
 ![S3 Glacier Deep Archive](/contenido/Dominio-3/s3-glacier-4.png "S3 Glacier Deep Archive")
 
 ### AWS Snowball
+
+La [familia AWS Snow](https://aws.amazon.com/snow) es un conjunto de dispositivos físicos que ayudan a transportar físicamente hasta exabytes de datos dentro y fuera de AWS. 
+
+La familia AWS Snow está compuesta por **AWS Snowcone**, **AWS Snowball** y **AWS Snowmobile**.
+
+![Familia AWS Snow](/contenido/Dominio-3/aws-snowball-1.png "Familia AWS Snow")
+
+#### AWS Snowcone
+
+AWS Snowcone es un dispositivo pequeño, resistente y seguro que ofrece computación de periferia y almacenamiento y transferencia de datos en cualquier momento y lugar en entornos austeros con conectividad escasa o nula.
+
+Cuenta con 2 CPU, 4 GB de memoria y 8 TB de almacenamiento utilizable.
+
+##### Casos de uso
+
+###### Acelere el análisis y recopilación de datos de flotas
+Recopile a diario terabytes de datos de grandes flotas de vehículos con facilidad en un tamaño pequeño mediante un diseño resistente, opciones de alimentación y una seguridad mejorada.
+
+###### Recopile datos de IoT en condiciones extremas
+
+Implemente una solución de almacenamiento e informática de periferia para entornos con espacio limitado, ancho de banda y condiciones medioambientales adversas, como plantas de producción, minas y campos petroleros.
+
+###### Mejore los resultados de los pacientes
+
+Preste servicios superiores de atención a los pacientes en tránsito o sobre el terreno y transmita datos fundamentales en tiempo real con implementaciones integradas de Wi-Fi y AWS DataSync.
+
+###### Agilice la distribución de contenido
+
+Recopile y procese contenido, incluidas imágenes de alta resolución, y mejore el rendimiento del equipo en entornos con ritmos acelerados y espacio reducido.
+
+#### AWS Snowball
+
+AWS Snowball ofrece dos tipos de dispositivos:
+
+- Los dispositivos optimizados para almacenamiento de Snowball Edge son adecuados para migraciones de datos a gran escala y flujos de trabajo de transferencias recurrentes, además del cómputo local con mayores necesidades de capacidad. 
+    - Almacenamiento: 80 TB de capacidad de disco duro (HDD) para volúmenes de bloques y almacenamiento de objetos compatible con Amazon S3, y 1 TB de unidad de estado sólido (SSD) SATA para volúmenes de bloques. 
+    - Cómputo: 40 vCPU y 80 GiB de memoria para admitir instancias sbe1 de Amazon EC2 (equivalente a C5).
+- Snowball Edge Compute Optimized proporciona potentes recursos de cómputo para casos de uso como aprendizaje automático, análisis de video de movimiento completo, análisis y pilas de cómputo locales. 
+    - Almacenamiento: capacidad de disco duro utilizable de 42 TB para almacenamiento de objetos compatible con Amazon S3 o volúmenes de bloques compatibles con Amazon EBS y 7.68 TB de capacidad SSD NVMe utilizable para volúmenes de bloques compatibles con Amazon EBS. 
+    - Cómputo: 52 vCPU, 208 GiB de memoria y una GPU NVIDIA Tesla V100 opcional. Los dispositivos ejecutan instancias sbe-c y sbe-g de Amazon EC2, que son equivalentes a las instancias C5, M5a, G3 y P3.
+
+##### Casos de uso
+
+###### Migre datos a escala de petabytes
+
+Transfiera bases de datos, copias de seguridad, archivos, registros sanitarios, conjuntos de datos de análisis, contenido multimedia y datos de sensores con IoT, especialmente cuando las condiciones de la red son limitadas.
+
+###### Procese y analice datos de forma local
+
+Ejecute las imágenes de máquina de Amazon (AMI) en Amazon EC2 e implemente código de AWS Lambda en dispositivos Snowball Edge con machine learning (ML) u otras aplicaciones.
+
+###### Optimice los datos de fabricación
+
+Recopile y analice datos de plantas de producción locales para perfeccionar los procesos y mejorar la seguridad, la eficiencia y la productividad.
+
+#### AWS Snowmobile
+
+AWS Snowmobile es un servicio de transferencia de datos a escala de exabytes que se utiliza para trasladar grandes cantidades de datos a AWS.
+
+Puede transferir hasta 100 petabytes de datos por Snowmobile, un contenedor de transporte resistente de 13.7 metros de largo, arrastrado por un camión semirremolque.
+
+AWS Snowmobile mueve cantidades sumamente grandes de datos a AWS. Puede transferir hasta 100 PB por Snowmobile, un contenedor de envío reforzado de 13,71 metros de longitud, colocado en un camión semitráiler.
+
+![Familia AWS Snow](/contenido/Dominio-3/aws-snowball-2.png "Familia AWS Snow")
+
+##### Casos de uso
+
+###### Migre volúmenes masivos de datos
+
+Traslade volúmenes masivos de datos a la nube, incluidas bibliotecas de videos, repositorios de imágenes e inclusive un centro de datos completo.
+
+###### Personalice las operaciones de transferencia de datos a su ubicación
+
+Cada lugar físico es diferente. AWS adapta los requisitos de entrega y migración para cumplir con las necesidades de su sitio.
+ 
+###### Cumpla con los requisitos de seguridad para migrar datos
+
+Mantenga la seguridad de sus datos transferidos físicamente con videovigilancia las 24 horas del día, hardware a prueba de manipulaciones, seguimiento por GPS, cifrado de datos y personal de seguridad opcional.
 
 ### Amazon Elastic File System (Amazon EFS)
 
