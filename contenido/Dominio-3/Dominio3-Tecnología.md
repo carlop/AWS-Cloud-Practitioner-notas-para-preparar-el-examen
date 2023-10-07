@@ -38,7 +38,7 @@
         - [Amazon S3 Glacier](#amazon-s3-glacier)
         - [AWS Snowball](#aws-snowball)
         - [Amazon Elastic File System (Amazon EFS)](#amazon-elastic-file-system-amazon-efs)
-        - AWS Storage Gateway
+        - [AWS Storage Gateway](#aws-storage-gateway)
     - Identificar los servicios de redes de AWS
         - Identificar VPC
         - Identificar grupos de seguridad
@@ -301,3 +301,19 @@ El almacenamiento duplicado le permite acceder a los datos simultáneamente desd
 
 
 ### AWS Storage Gateway
+
+AWS Storage Gateway es un conjunto de servicios de almacenamiento en la nube híbrida que brinda acceso en las instalaciones a un almacenamiento en la nube prácticamente ilimitado.
+
+#### Casos de uso
+
+##### Tienda de flujos de trabajo en la nube híbrida
+
+Archiva los datos como objetos utilizando datos generados por aplicaciones locales para que los procesen los servicios de AWS, como el aprendizaje automático o el análisis de macrodatos.
+
+##### Migre los datos de las aplicaciones a EBS
+
+Utilice una instantánea de sus volúmenes locales para recrear los datos en EBS y utilizarlos con aplicaciones basadas en Amazon EC2.
+
+##### Realice copia de seguridad de datos en la nube
+
+Proporcione una copia de seguridad basada en la nube para los archivos y las aplicaciones de bases de datos locales, con un costo bajo y una escala prácticamente ilimitada.

@@ -117,7 +117,7 @@ El propósito de este repositorio es contener toda la información necesaria par
             - [Amazon S3 Glacier](/contenido/Dominio-3/Dominio3-Tecnología.md#amazon-s3-glacier)
             - [AWS Snowball](/contenido/Dominio-3/Dominio3-Tecnología.md#aws-snowball)
             - [Amazon Elastic File System (Amazon EFS)](/contenido/Dominio-3/Dominio3-Tecnología.md#amazon-elastic-file-system-amazon-efs)
-            - Describir AWS Storage Gateway
+            - [AWS Storage Gateway](/contenido/Dominio-3/Dominio3-Tecnología.md#aws-storage-gateway)
         - Identificar los servicios de redes de AWS
             - Identificar VPC
             - Identificar grupos de seguridad
