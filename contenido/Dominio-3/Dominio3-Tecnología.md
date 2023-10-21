@@ -43,7 +43,7 @@
         - Identificar VPC
         - Identificar grupos de seguridad
         - Identificar el fin de Amazon Route 53
-        - Identificar VPN, AWS Direct Connect
+        - [AWS Direct Connect](#aws-direct-connect)
     - Identificar diferentes servicios de bases de datos de AWS
         - Instalar bases de datos en Amazon EC2 en comparación con las bases de datos que administra AWS
         - Identificar Amazon RDS
@@ -60,6 +60,19 @@
     - Identificar fuentes de asistencia técnica y conocimientos de AWS, incluidos servicios profesionales, arquitectos de soluciones, capacitación y certificación, y la red de socios de Amazon
     - Identificar los beneficios de usar AWS Trusted Advisor
 
+## Métodos de implementación y funcionamiento en la nube de AWS
+### Identificar opciones de conectividad
+
+#### VPN
+
+#### AWS Direct Connect
+
+**AWS Direct Connect** es un servicio que le permite establecer una conexión privada dedicada entre su centro de datos y una VPC.  
+
+
+La conexión privada que proporciona AWS Direct Connect le ayuda a reducir los costos de red y a aumentar la cantidad de ancho de banda que puede viajar a través de la red.
+
+#### Internet pública
 
 
 ## Servicios de almacenamiento de AWS

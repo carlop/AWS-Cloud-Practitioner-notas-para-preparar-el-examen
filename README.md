@@ -122,7 +122,7 @@ El propósito de este repositorio es contener toda la información necesaria par
             - Identificar VPC
             - Identificar grupos de seguridad
             - Identificar el fin de Amazon Route 53
-            - Identificar VPN, AWS Direct Connect
+            - [AWS Direct Connect](/contenido/Dominio-3/Dominio3-Tecnología.md#aws-direct-connect)
         - Identificar diferentes servicios de bases de datos de AWS
             - Instalar bases de datos en Amazon EC2 en comparación con las bases de datos que administra AWS
             - Identificar Amazon RDS
